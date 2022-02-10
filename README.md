@@ -1,12 +1,15 @@
 # ESP32-MicroPython-smart-car
+
 使用ESP32开发板、红外寻迹、红外避障、rgb小灯、红外遥控等实现的具有寻迹、避障、遥控三种模式的智能小车
- 
+
  ## 开发平台
+
  Thonny  MicroPython开发
  开发工具见上传的安装包和串口工具
- 
+
  ## 引脚接口(根据实际接线可以自定义)
-'''Python
+
+```python
 #设置管脚PIN
 left1_pin  = 15   
 left2_pin   = 2
@@ -19,4 +22,12 @@ follow_right_pin = 18
 mode_pin = 21
 redLED_pin = 22
 blueLED_pin = 23
-'''
+```
+
+
+
+# 车子外观
+
+![](https://github.com/Jessy-Huang/ESP32-MicroPython-smart-car/blob/main/1.jpg)
+
+![2](https://github.com/Jessy-Huang/ESP32-MicroPython-smart-car/blob/main/2.jpg)
