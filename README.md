@@ -7,7 +7,7 @@
  
  ## 引脚接口(根据实际接线可以自定义)
 '''Python
-# 设置管脚PIN
+#设置管脚PIN
 left1_pin  = 15   
 left2_pin   = 2
 right1_pin  = 16   #5
